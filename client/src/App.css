@@ -1,0 +1,29 @@
+.html {
+  width: 100%;
+  left: 0px;
+}
+.home {
+  /* position: absolute;s */
+  width: 100%;
+  height: 800px;
+  margin: 0px;
+  background: no-repeat;
+  background-image: url(https://res.cloudinary.com/dlb1ct3qc/image/upload/v1612359080/iSharey/dfssdfgsdf_x6dxht.svg);
+  background-size: inherit;
+}
+.donate {
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  left: 0px;
+  top: 800px;
+  background-color: red;
+}
+.work {
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  left: 0px;
+  top: 1600px;
+  background-color: aqua;
+}
