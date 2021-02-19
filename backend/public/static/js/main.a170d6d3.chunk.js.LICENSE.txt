@@ -1,0 +1,9 @@
+//! Here we will be inserting the navbar thing bro!, Now how
+
+//! manage tasks page?
+
+//! will you design it so that it will be in the top only, means it will be on/above the image
+
+//!This is the place for making axios call, from frontend to backend
+
+//!this will make it lil more good
