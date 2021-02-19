@@ -21,15 +21,18 @@ exports.getMsgById = (req, res, next, id) => {
     next();
   });
 };
+
 //*adding a new msg
 exports.addMsg = (req, res) => {
   const msg = new Msg(req.body);
   msg.save((err, msg) => {
     if (err) {
+      console.log("msg couldn't be saved form msg controller");
       return res.status(400).json({
-        error: "NOT able to save msg in DB",
+        error: "NOT able to save msg in DB" + err,
       });
     }
+    console.log("Msg saved form msg controller");
     res.json({ msg });
   });
 };

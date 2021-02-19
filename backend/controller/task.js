@@ -38,10 +38,12 @@ exports.addTask = (req, res) => {
   console.log(task);
   task.save((err, task) => {
     if (err) {
+      console.log("Error from task controller");
       return res.status(400).json({
         error: "NOT able to save task in DB",
       });
     }
+    console.log("Task is saved from task controller");
     res.json({ task });
   });
 };
@@ -65,10 +67,12 @@ exports.deleteTask = (req, res) => {
 exports.getAllTask = (req, res) => {
   Task.find().exec((err, task) => {
     if (err) {
+      console.log("No task sent from task controller");
       return res.status(400).json({
         error: "No Task Available",
       });
     }
+    console.log("Task sent to frontend from controller");
     res.json({ task });
   });
 };

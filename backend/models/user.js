@@ -10,8 +10,7 @@ const userSchema = new Schema(
       type: String,
       required: true,
       trim: true,
-      minlength: 6,
-      maxlength: 12,
+      minlength: 3,
     },
     email: {
       type: String,
@@ -32,7 +31,7 @@ const userSchema = new Schema(
     password: {
       type: String,
       required: true,
-      minlength: 6,
+      minlength: 3,
       trim: true,
     },
     tokens: [

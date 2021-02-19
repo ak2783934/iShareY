@@ -9,7 +9,9 @@ const { signUp, signIn, signOut } = require("../controller/auth");
 router.post(
   "/signup",
   [
-    check("username", "Name should be atleast 3 chars").isLength({ min: 3 }),
+    check("username", "Name should be atleast 3 chars").isLength({
+      min: 3,
+    }),
     check("email", "Email is required").isEmail(),
     check("password", "Password should be at least 3 char").isLength({
       min: 3,
@@ -27,6 +29,7 @@ router.post(
   ],
   signIn
 );
+
 router.get("/signout", signOut);
 
 module.exports = router;

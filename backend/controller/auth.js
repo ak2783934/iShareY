@@ -21,14 +21,17 @@ exports.signUp = (req, res) => {
     });
   }
   const user = new User(req.body);
+  // console.log(user);
   user.save((err, user) => {
     if (err) {
+      console.log("Error from auth controller for signup, failed");
       return res.status(400).json({
-        msg: "Couldn't sign up",
+        msg: "Couldn't sign up " + err,
       });
     }
+    console.log("signup is successfull now from auth controller");
     res.json({
-      name: user.name,
+      username: user.username,
       email: user.email,
       id: user._id,
       password: user.password,
@@ -56,9 +59,11 @@ exports.signIn = (req, res) => {
       if (isMatch) {
         const token = jwt.sign({ _id: user._id }, process.env.secret);
         res.cookie("tkn", token, { expire: new Date() + 9999 });
-        const { username, email, id } = user;
-        return res.json({ token, user: { username, email, id } });
+        const { username, email, id, isAdmin } = user;
+        console.log("SignIn successfull from auth controller");
+        return res.json({ token, user: { username, email, id, isAdmin } });
       } else {
+        console.log("SignIn Failed from auth controller");
         return res.status(401).json({
           msg: "Invalid password",
         });
@@ -79,9 +84,11 @@ exports.signOut = (req, res) => {
 exports.isSignedIn = expressJwt({
   secret: process.env.secret,
   algorithms: ["sha1", "RS256", "HS256"],
+  userProperty: "auth",
 });
 
 exports.isAdmin = (req, res, next) => {
+  console.log("isAdmin called ????");
   if (!req.profile.isAdmin) {
     return res.status(403).json({ error: "you are not admin: ACCESS DENIED" });
   }

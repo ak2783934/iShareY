@@ -34,10 +34,12 @@ exports.addWork = (req, res) => {
   const work = new Work(data);
   work.save((err, work) => {
     if (err) {
+      console.log("Couldn't add work: work controller");
       return res.status(400).json({
         msg: "Couldn't upload the work :(",
       });
     }
+    console.log("Work added: work controller");
     res.json({ work });
   });
 };
@@ -47,10 +49,12 @@ exports.deleteWork = (req, res) => {
   const work = req.work;
   work.remove((err) => {
     if (err) {
+      console.log("Couldn't delete work controller");
       return res.status(400).json({
         msg: "Couldn't delete the work",
       });
     }
+    console.log("Delete successs work controller");
     res.json({
       msg: "Work deleted successfully",
     });
@@ -61,10 +65,12 @@ exports.deleteWork = (req, res) => {
 exports.getAllWork = (req, res) => {
   Work.find().exec((err, work) => {
     if (err) {
+      console.log("couldn't fetch all work controller");
       return res.status(400).json({
         msg: "couldn't get all the works",
       });
     }
+    console.log("All work out controller");
     res.json({ work });
   });
 };
