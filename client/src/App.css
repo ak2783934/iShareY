@@ -201,7 +201,7 @@
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
-  font-size: 1vw;
+  font-size: 1.4vw;
   line-height: 1.5vw;
   color: #ffffff;
   padding-left: 0.7vw;
@@ -561,16 +561,17 @@ input file-upload-button {
 }
 
 .front-page-home-team {
+  width: 100%;
   background: no-repeat;
   background-image: url(https://res.cloudinary.com/dlb1ct3qc/image/upload/v1612359080/iSharey/dfssdfgsdf_x6dxht.svg);
-  background-size: inherit;
-  height: 100vh;
+  background-size: 100vw auto;
+  height: 55.5vw;
 }
 .team-main-page {
   /* height: 500px; */
   display: grid;
-  margin-top: 40px;
-  margin-bottom: 70px;
+  margin-top: 1.8vw;
+  margin-bottom: 5vw;
   margin-left: 8.888%;
   margin-right: 8.888%;
   grid-template-columns: 1fr 1fr 1fr;
@@ -579,28 +580,28 @@ input file-upload-button {
 
 .team-card {
   /* width: 95%; */
-  margin-bottom: 20px;
-  margin: 20px auto;
-  width: 329px;
-  height: 402px;
+  margin-bottom: 1vw;
+  margin: 1vw auto;
+  width: 25vw;
+  height: 28vw;
   background: rgba(16, 68, 75, 0.7);
-  border-radius: 20px;
+  border-radius: 1vw;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
 }
 .card-img-team {
-  height: 150px;
-  width: 150px;
-  border-radius: 120px;
-  margin: 35px auto;
+  height: 9vw;
+  width: 9vw;
+  border-radius: 10vw;
+  margin: 1.4vw auto;
 }
 .card-name-team {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 1.3vw;
-  line-height: 37px;
+  line-height: 1.5vw;
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -641,18 +642,18 @@ input file-upload-button {
 
 .login-main-page {
   /* height: 500px; */
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 6vw;
+  margin-bottom: 4vw;
   margin-left: auto;
   margin-right: auto;
-  width: 423px;
-  height: 365px;
+  width: 33.3vw;
+  height: 28vw;
   background: rgba(16, 68, 75, 0.7);
   border-radius: 20px;
 }
 
 .login-header {
-  width: 237px;
+  width: 20vw;
   margin-left: auto;
   margin-right: auto;
   padding-top: 10%;
@@ -660,8 +661,8 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 1.3vw;
-  line-height: 50px;
+  font-size: 3vw;
+  line-height: 2vw;
   color: #ffffff;
 }
 
@@ -674,7 +675,7 @@ input file-upload-button {
   margin-left: auto;
   margin-right: auto;
   margin-top: 13%;
-  height: 29px;
+  height: 2vw;
   width: 100%;
   background: #c4c4c4;
   border-radius: 8px;
@@ -690,10 +691,10 @@ input file-upload-button {
   margin-left: auto;
   margin-right: auto;
   margin-top: 13%;
-  height: 29px;
+  height: 2vw;
   width: 100%;
   background: #c4c4c4;
-  border-radius: 8px;
+  border-radius: 1vw;
   border: none;
   font-family: Montserrat;
   font-style: normal;
@@ -706,10 +707,10 @@ input file-upload-button {
   margin-left: auto;
   margin-right: auto;
   margin-top: 13%;
-  height: 29px;
+  height: 2vw;
   width: 100%;
   background: #5cada6;
-  border-radius: 8px;
+  border-radius: 1vw;
   border: none;
   font-family: Montserrat;
   font-style: normal;
@@ -724,23 +725,23 @@ input file-upload-button {
   padding: 0;
 }
 .our-team {
-  margin-top: 2%;
+  margin-top: 3%;
   text-align: center;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 1.3vw;
-  line-height: 60px;
+  font-size: 2.5vw;
+  line-height: 5vw;
   color: #ffffff;
 }
 .name-input-signup {
   margin-left: auto;
   margin-right: auto;
   margin-top: 13%;
-  height: 29px;
+  height: 2vw;
   width: 100%;
   background: #c4c4c4;
-  border-radius: 8px;
+  border-radius: 0.7vw;
   border: none;
   font-family: Montserrat;
   font-style: normal;
@@ -753,10 +754,10 @@ input file-upload-button {
   margin-left: auto;
   margin-right: auto;
   margin-top: 13%;
-  height: 29px;
+  height: 2vw;
   width: 100%;
   background: #c4c4c4;
-  border-radius: 8px;
+  border-radius: 0.7vw;
   border: none;
   font-family: Montserrat;
   font-style: normal;
@@ -769,10 +770,10 @@ input file-upload-button {
   margin-left: auto;
   margin-right: auto;
   margin-top: 13%;
-  height: 29px;
+  height: 2vw;
   width: 100%;
   background: #c4c4c4;
-  border-radius: 8px;
+  border-radius: 0.7vw;
   border: none;
   font-family: Montserrat;
   font-style: normal;
@@ -786,10 +787,10 @@ input file-upload-button {
   margin-left: auto;
   margin-right: auto;
   margin-top: 13%;
-  height: 29px;
+  height: 2vw;
   width: 100%;
   background: #5cada6;
-  border-radius: 8px;
+  border-radius: 0.7vw;
   border: none;
   font-family: Montserrat;
   font-style: normal;
@@ -799,23 +800,23 @@ input file-upload-button {
   color: #ffffff;
 }
 .signup-main-page {
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 6vw;
+  margin-bottom: 3vw;
   margin-left: auto;
   margin-right: auto;
-  width: 423px;
-  height: 550px;
+  width: 33.3vw;
+  height: 38vw;
   background: rgba(16, 68, 75, 0.7);
-  border-radius: 20px;
+  border-radius: 1vw;
 }
 .text-input-signup {
   margin-left: auto;
   margin-right: auto;
   margin-top: 13%;
   width: 100%;
-  height: 60px;
+  height: 4vw;
   background: #c4c4c4;
-  border-radius: 8px;
+  border-radius: 0.7vw;
   border: none;
   font-family: Montserrat;
   font-style: normal;
@@ -849,16 +850,15 @@ input file-upload-button {
 .ngo-msg {
   color: white;
   text-align: center;
-  margin: 30px auto;
-  margin-bottom: 30px;
+  margin: 2vw auto;
+  margin-bottom: 2vw;
 }
 
 .ngo-msg-input {
   background-color: pink;
-  width: 536px;
-  /* height: 300px; */
+  width: 40vw;
   background: #d2cfb6;
-  border-radius: 30px;
+  border-radius: 1.5vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -867,6 +867,7 @@ input file-upload-button {
 }
 .ngo-msg-input > h3 {
   text-align: center;
+  font-size: 3vw;
   color: rgba(79, 192, 172, 1);
   margin-top: 10px;
   margin-bottom: 0px;
@@ -919,11 +920,11 @@ input file-upload-button {
 }
 .text-input-admin {
   width: 89%;
-  height: 75px;
-  margin-left: 42px;
-  margin-top: 20px;
+  height: 5vw;
+  margin-left: 3vw;
+  margin-top: 1.9vw;
   background: #c4c4c4;
-  border-radius: 8px;
+  border-radius: 1.3vw;
   border: none;
   font-family: Montserrat;
   font-style: normal;
@@ -935,7 +936,7 @@ input file-upload-button {
 }
 .submit-button-admin {
   width: 90%;
-  height: 29px;
+  height: 2vw;
   margin-left: 41px;
   margin-top: 15px;
   background: #5cada6;
@@ -950,7 +951,7 @@ input file-upload-button {
 }
 .submit-button-ngo {
   width: 90%;
-  height: 29px;
+  height: 2vw;
   margin-left: 41px;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -1048,26 +1049,26 @@ input file-upload-button {
   background: #4fc0ac;
   border-radius: 5px;
   padding: 5px 0;
-  width: 150px;
-  margin: 20px auto;
+  width: 10vw;
+  margin: 1.2vw auto;
 }
 .manage-task-board {
-  width: 950px;
+  width: 77vw;
   background-color: #d2cfb6;
   margin: 70px auto;
   margin-bottom: 0px;
-  border-radius: 50px;
+  border-radius: 3vw;
 }
 .manage-work-board {
-  width: 950px;
+  width: 70vw;
   background-color: #d2cfb6;
-  margin: 70px auto;
+  margin: 5vw auto;
   margin-bottom: 0px;
-  border-radius: 50px;
+  border-radius: 3vw;
 }
 .front-page-manage-task {
   background-color: #10444b;
-  padding-bottom: 50px;
+  padding-bottom: 3vw;
   height: auto;
   /* position: inherit; */
 }
@@ -1097,11 +1098,11 @@ input file-upload-button {
 }
 
 .managetask-card {
-  margin-bottom: 20px;
-  margin: 20px auto;
+  margin-bottom: 1.2vw;
+  margin: 1.2vw auto;
   width: 80%;
   background: #d68383;
-  border-radius: 20px;
+  border-radius: 1vw;
   display: flex;
 }
 .managetask-card-first {
@@ -1109,28 +1110,28 @@ input file-upload-button {
 }
 .managetask-card-second {
   width: 50%;
-  padding-right: 10px;
+  padding-right: 0.8vw;
 }
 .managetask-card-image {
-  height: 150px;
-  width: 150px;
-  padding: 20px;
-  border-radius: 35px;
+  height: 10vw;
+  width: 10vw;
+  padding: 1.4vw;
+  border-radius: 1vw;
 }
 .managetask-card-name {
   font-style: normal;
   font-weight: normal;
   font-size: 1.3vw;
-  line-height: 18px;
+  line-height: 1vw;
   text-align: center;
   color: #000000;
-  margin-top: 25px;
+  margin-top: 1.6vw;
 }
 .managetask-card-address {
   font-style: normal;
   font-weight: lighter;
   font-size: 1.3vw;
-  line-height: 18px;
+  line-height: 1.4vw;
   text-align: center;
   color: #000000;
 }
@@ -1138,30 +1139,35 @@ input file-upload-button {
   font-style: normal;
   font-weight: lighter;
   font-size: 1.3vw;
-  line-height: 18px;
+  line-height: 1vw;
   text-align: center;
   color: #000000;
 }
 .managetask-card-done {
-  margin-top: 27px;
-  margin-left: 30px;
+  margin-top: 1.8vw;
+  margin-left: 2vw;
 }
 .managetask-card-done :hover {
   cursor: pointer;
   transform: translate(0, -2px);
 }
+
+.managetask-card-done > img {
+  width: 8vw;
+}
+
 .managemsg-card {
-  margin-bottom: 20px;
-  margin: 25px auto;
+  margin-bottom: 1.5vw;
+  margin: 1.5vw auto;
   width: 80%;
   background: #d68383;
-  border-radius: 20px;
+  border-radius: 1vw;
   display: flex;
 }
 .manage-msg-div {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding-bottom: 25px;
+  padding-bottom: 1.7vw;
   margin-bottom: 0px;
 }
 
@@ -1178,27 +1184,27 @@ input file-upload-button {
 .managemsg-card-name {
   font-style: normal;
   font-weight: normal;
-  font-size: 1.3vw;
-  line-height: 18px;
+  font-size: 2vw;
+  line-height: 1vw;
   text-align: center;
   color: #000000;
   margin-top: 25px;
 }
 .managemsg-card-done {
-  margin-top: 20px;
-  margin-left: 70px;
-  margin-bottom: 10px;
+  margin-left: 5.3vw;
+  margin-top: 1.4vw;
+  margin-bottom: 0.8vw;
 }
 .managemsg-card-done :hover {
   cursor: pointer;
   transform: translate(0, -2px);
 }
 .manage-msg-board {
-  width: 950px;
+  width: 77vw;
   background-color: #d2cfb6;
-  margin: 70px auto;
+  margin: 5vw auto;
   margin-bottom: 0px;
-  border-radius: 50px;
+  border-radius: 3.4vw;
 }
 .manage-msg-board > h2 {
   font-weight: lighter;
@@ -1210,9 +1216,9 @@ input file-upload-button {
 .manage-work-input-form {
   background-color: #d68383;
   width: 90%;
-  margin-left: 50px;
-  border-radius: 20px;
-  margin-bottom: 20px;
+  margin-left: 3.6vw;
+  border-radius: 1vw;
+  margin-bottom: 2vw;
 }
 .manage-work-input-form > form {
   width: 100%;
@@ -1225,12 +1231,12 @@ input file-upload-button {
   text-align: center;
 }
 .work-input-img {
-  margin-top: 15px;
-  margin-left: 75px;
-  height: 29px;
-  width: 325px;
+  margin-top: 1vw;
+  margin-left: 5vw;
+  height: 2vw;
+  width: 25vw;
   background: #c4c4c4;
-  border-radius: 8px;
+  border-radius: 0.6vw;
   border: none;
   font-family: Montserrat;
   font-style: normal;
@@ -1241,10 +1247,10 @@ input file-upload-button {
   padding-left: 0.8vw;
 }
 .address-input-work {
-  margin-top: 15px;
-  margin-left: 42px;
-  height: 29px;
-  width: 325px;
+  margin-top: 1vw;
+  margin-left: 1vw;
+  height: 2vw;
+  width: 25vw;
   background: #c4c4c4;
   border-radius: 8px;
   border: none;
@@ -1258,14 +1264,14 @@ input file-upload-button {
   padding-left: 0.8vw;
 }
 .submit-button-work {
-  width: 82.9%;
-  height: 29px;
-  margin-left: 75px;
-  margin-bottom: 25px;
+  width: 83%;
+  height: 2vw;
+  margin-left: 5vw;
+  margin-bottom: 1.4vw;
   padding: 0px;
-  margin-top: 20px;
+  margin-top: 1.4vw;
   background: #5cada6;
-  border-radius: 8px;
+  border-radius: 0.6vw;
   border: none;
   font-family: Montserrat;
   font-style: normal;
