@@ -5,11 +5,10 @@
 .home {
   /* position: absolute;s */
   width: 100%;
-  height: 800px;
+  height: 55.5vw;
   margin: 0px;
   background: no-repeat;
-  /* background-image: url(https://res.cloudinary.com/dlb1ct3qc/image/upload/v1613295379/iSharey/homepage_xkugir.svg); */
-  background-size: inherit;
+  background-size: 100vw auto;
   animation: animate 9s ease-in-out infinite;
 }
 @keyframes animate {
@@ -26,28 +25,28 @@
 }
 .donate {
   position: absolute;
-  width: 100%;
-  height: 800px;
+  width: 100vw;
+  height: 55.5vw;
   left: 0px;
-  top: 800px;
+  height: 55.5vw;
   background-color: rgb(159, 201, 158);
 }
 .work {
   position: absolute;
-  width: 100%;
-  height: 800px;
+  width: 100vw;
+  height: 55.5vw;
   left: 0px;
-  top: 1600px;
+  top: 115.9vw;
   background-color: #f6f6f6;
 }
 
 .navbar {
   color: white;
   margin: 0;
-  height: 65px;
+  height: 5vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas: "blank navBar navBar navBar navBar navbar navbar homeBar teamBar loginBar signupBar";
+  grid-template-areas: 'blank navBar navBar navBar navBar navbar navbar homeBar teamBar loginBar signupBar';
 }
 
 .navBar {
@@ -76,15 +75,20 @@
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1.3vw;
   line-height: 24px;
   color: #ffffff;
   margin: auto 0;
+  text-align: center;
   text-decoration: none;
 }
 
+.navbar > img {
+  height: 5vw;
+}
+
 .footerBar {
-  height: 44.4%;
+  height: auto;
   background: #c4c4c4;
   position: absolute;
   width: 100%;
@@ -96,27 +100,28 @@
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
-  line-height: 49px;
-  margin-top: 22px;
+  font-size: 2.5vw;
+  line-height: 2.1vw;
+  margin-top: 1.9vw;
   margin-bottom: 10px;
-  height: 50px;
+  height: 3vw;
 }
 
 .footerBar > .contact-box {
   display: grid;
   height: auto;
+  margin-bottom: 3vw;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas: "blank input-form input-form input-form input-form input-form address address address address address";
+  grid-template-areas: 'blank input-form input-form input-form input-form input-form address address address address address';
 }
 
 .input-form {
   background-color: pink;
   grid-area: input-form;
-  width: 536px;
-  height: 222px;
+  width: 40vw;
+  height: 21vw;
   background: #e3dede;
-  border-radius: 30px;
+  border-radius: 1.4vw;
 }
 
 .address {
@@ -125,9 +130,9 @@
 }
 
 .name-input {
-  margin-top: 25px;
-  margin-left: 42px;
-  height: 29px;
+  margin-top: 2vw;
+  margin-left: 2.5vw;
+  height: 2vw;
   width: 37%;
   background: #c4c4c4;
   border-radius: 8px;
@@ -135,16 +140,16 @@
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
-  padding-left: 8px;
+  padding-left: 0.8vw;
 }
 
 .email-input {
-  margin-top: 25px;
-  margin-left: 38px;
-  height: 29px;
+  margin-top: 2vw;
+  margin-left: 2.5vw;
+  height: 2vw;
   width: 37%;
   background: #c4c4c4;
   border-radius: 8px;
@@ -152,53 +157,54 @@
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
-  padding-left: 8px;
+  padding-left: 0.8vw;
 }
 .text-input {
-  margin-top: 18px;
-  margin-left: 41px;
-  margin-right: 41px;
+  margin-top: 1.5vw;
+  margin-left: 2.5vw;
+  margin-right: 1.4vw;
   width: 82.8%;
-  height: 75px;
+  height: 6vw;
   background: #c4c4c4;
   border-radius: 8px;
   border: none;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
-  padding-left: 8px;
+  padding-left: 0.8vw;
 }
 
 .submit-button {
   width: 85%;
-  height: 29px;
-  margin-left: 41px;
-  margin-top: 15px;
+  height: 2vw;
+  margin-left: 2.5vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
   background: #5cada6;
-  border-radius: 8px;
+  border-radius: 0.5vw;
   border: none;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1vw;
+  line-height: 1.5vw;
   color: #ffffff;
 }
 
 ::placeholder {
   font-family: Montserrat;
   font-style: normal;
-  font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-weight: normal;
+  font-size: 1vw;
+  line-height: 1.5vw;
   color: #ffffff;
-  padding-left: 8px;
+  padding-left: 0.7vw;
 }
 
 textarea:focus,
@@ -206,32 +212,37 @@ input:focus {
   outline: none;
 }
 
-.address-list {
+.address {
   margin: 3% 15%;
+  height: auto;
 }
 
 .actual-address {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.3vw;
+  line-height: 2vw;
   margin: 0;
   color: #767070;
 }
 
-.address-list > .copyright {
+.address > .copyright {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 19px;
-  line-height: 24px;
+  font-size: 1.3vw;
+  line-height: 1.3vw;
   color: #e5e5e5;
 }
 
+.address > p > a > img {
+  width: 3.5vw;
+}
+
 .icons {
-  margin-right: 20px;
-  height: 20px;
+  margin-right: 1vw;
+  height: 1vw;
 }
 .donateDiv {
   height: 100%;
@@ -243,7 +254,7 @@ input:focus {
   display: flex;
   padding-left: 8.333%;
   padding-right: 8.333%;
-  padding-top: 6%;
+  padding-top: 5%;
 }
 
 .text-donate {
@@ -251,14 +262,16 @@ input:focus {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 1.3vw;
   line-height: 49px;
   /* identical to box height */
   color: #000000;
 }
 
 .text-donate > p {
-  margin-top: 0px;
+  margin-top: 1vw;
+  font-size: 2.3vw;
+  line-height: 1.3vw;
 }
 
 .second-div {
@@ -275,7 +288,7 @@ input:focus {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 2.5vw;
   line-height: 49px;
   color: #ffffff;
 }
@@ -284,32 +297,38 @@ input:focus {
 }
 .donate-input {
   width: 65%;
+  height: auto;
   background: #e3dede;
-  border-radius: 30px;
+  border-radius: 1.7vw;
+  margin-bottom: 2.3vw;
 }
 .logo-donation {
   margin-left: 20%;
+  margin-bottom: 2.3vw;
+}
+.logo-donation > img {
+  height: 17vw;
 }
 
 .submit-button-donate {
-  width: 84%;
-  height: 29px;
-  margin-left: 41px;
-  margin-top: 35px;
+  width: 83%;
+  height: 2.3vw;
+  margin-left: 3.9vw;
+  margin-top: 3.1vw;
   background: #5cada6;
   border-radius: 8px;
   border: none;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
 }
 .name-input-donate {
-  margin-top: 30px;
-  margin-left: 42px;
-  height: 29px;
+  margin-top: 2.5vw;
+  margin-left: 3.9vw;
+  height: 2vw;
   width: 37%;
   background: #c4c4c4;
   border-radius: 8px;
@@ -317,15 +336,15 @@ input:focus {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
-  padding-left: 8px;
+  padding-left: 0.8vw;
 }
 .donate-input-img {
-  margin-top: 30px;
-  margin-left: 50px;
-  height: 29px;
+  margin-top: 2.5vw;
+  margin-left: 2vw;
+  height: 2vw;
   width: 37%;
   background: #c4c4c4;
   border-radius: 8px;
@@ -333,19 +352,24 @@ input:focus {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
-  padding-left: 8px;
+  padding-left: 0.8vw;
 }
+
+.logo-div-donate > img {
+  height: 17vw;
+}
+
 input file-upload-button {
   display: none;
 }
 
 .address-input-donate {
-  margin-top: 30px;
-  margin-left: 42px;
-  height: 29px;
+  margin-top: 2vw;
+  margin-left: 3.9vw;
+  height: 2vw;
   width: 37%;
   background: #c4c4c4;
   border-radius: 8px;
@@ -353,15 +377,15 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
-  padding-left: 8px;
+  padding-left: 0.8vw;
 }
 .donate-input-number {
-  margin-top: 30px;
-  margin-left: 50px;
-  height: 29px;
+  margin-top: 2vw;
+  margin-left: 2vw;
+  height: 2vw;
   width: 37%;
   background: #c4c4c4;
   border-radius: 8px;
@@ -369,10 +393,10 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
-  padding-left: 8px;
+  padding-left: 0.8vw;
 }
 
 .work-display {
@@ -383,11 +407,11 @@ input file-upload-button {
   /* height: 56.6%; */
 }
 .our-work-title {
-  margin-bottom: 10px;
+  margin-bottom: 1.7vw;
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 2.5vw;
   line-height: 49px;
   color: #000000;
 }
@@ -405,46 +429,43 @@ input file-upload-button {
   height: auto;
 }
 .card-img {
-  height: 219px;
+  height: 15vw;
   width: 45%;
 }
 .card-img img {
-  height: 219px;
-  width: 245px;
+  height: 15vw;
+  width: 100%;
 }
 
 .card-msg {
   width: 55%;
   background-color: #c4c4c4;
-  height: 219px;
-}
-.work-area {
-  height: 100%;
+  height: 15vw;
 }
 
 .work-card-msg {
-  padding: 20px 13px;
+  padding: 2vw 2vw;
   margin: 0px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 1.3vw;
+  line-height: 2vw;
   color: #767070;
 }
 
 .hompage-box {
   margin: 9% 8.33%;
   position: absolute;
-  width: 352px;
-  height: 490px;
+  width: 25vw;
+  height: 35vw;
   background-color: rgba(16, 68, 75, 0.7);
-  border-radius: 21px;
+  border-radius: 1.4vw;
 }
 
 .signup-header {
-  width: 237px;
-  height: 37px;
+  width: 20vw;
+  height: 3.5vw;
   margin-left: auto;
   margin-right: auto;
   margin-top: 9%;
@@ -452,14 +473,14 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
-  line-height: 37px;
+  font-size: 2vw;
+  line-height: 1vw;
   color: #ffffff;
 }
 .name-input-home {
-  margin-left: 34px;
+  margin-left: 2.4vw;
   margin-top: 9%;
-  height: 29px;
+  height: 2vw;
   width: 68%;
   background: #c4c4c4;
   border-radius: 8px;
@@ -467,15 +488,15 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
-  padding-left: 8px;
+  padding-left: 0.8vw;
 }
 .email-input-home {
-  margin-left: 34px;
+  margin-left: 2.4vw;
   margin-top: 9%;
-  height: 29px;
+  height: 2vw;
   width: 68%;
   background: #c4c4c4;
   border-radius: 8px;
@@ -483,15 +504,15 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
-  padding-left: 8px;
+  padding-left: 0.8vw;
 }
 .password-input-home {
-  margin-left: 34px;
+  margin-left: 2.4vw;
   margin-top: 9%;
-  height: 29px;
+  height: 2vw;
   width: 68%;
   background: #c4c4c4;
   border-radius: 8px;
@@ -499,44 +520,44 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
-  padding-left: 8px;
+  padding-left: 0.8vw;
 }
 .text-input-home {
-  margin-left: 34px;
+  margin-left: 2.4vw;
   margin-top: 9%;
   width: 68%;
-  height: 75px;
+  height: 4vw;
   background: #c4c4c4;
   border-radius: 8px;
   border: none;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
-  padding-left: 8px;
+  padding-left: 0.8vw;
 }
 .submit-button-home {
-  margin-left: 34px;
+  margin-left: 2.4vw;
   margin-top: 9%;
-  height: 29px;
-  width: 227px;
+  height: 2vw;
+  width: 70.5%;
   background: #5cada6;
   border-radius: 8px;
   border: none;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
 }
 .signup-as-ngo {
-  margin-left: 32px;
+  margin-left: 2.4vw;
 }
 
 .front-page-home-team {
@@ -578,7 +599,7 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 1.3vw;
   line-height: 37px;
   color: #ffffff;
   display: flex;
@@ -588,7 +609,7 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 1.3vw;
   line-height: 18px;
   display: flex;
   margin-top: 10px;
@@ -599,7 +620,7 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 1.3vw;
   line-height: 18px;
   display: flex;
   margin-top: 10px;
@@ -610,7 +631,7 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 1.3vw;
   line-height: 18px;
   display: flex;
   margin-top: 10px;
@@ -639,7 +660,7 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 1.3vw;
   line-height: 50px;
   color: #ffffff;
 }
@@ -661,8 +682,8 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
 }
 .password-input-login {
@@ -677,8 +698,8 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
 }
 .submit-button-login {
@@ -693,8 +714,8 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
 }
 .login-form > form {
@@ -708,7 +729,7 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 1.3vw;
   line-height: 60px;
   color: #ffffff;
 }
@@ -724,8 +745,8 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
 }
 .email-input-signup {
@@ -740,8 +761,8 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
 }
 .password-input-signup {
@@ -756,8 +777,8 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
 }
 
@@ -773,8 +794,8 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
 }
 .signup-main-page {
@@ -799,8 +820,8 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
   padding: 1px 2px;
 }
@@ -817,8 +838,8 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
 }
 .Login-here-msg {
@@ -875,10 +896,10 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
-  padding-left: 8px;
+  padding-left: 0.8vw;
 }
 .email-input-admin {
   margin-top: 25px;
@@ -891,10 +912,10 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
-  padding-left: 8px;
+  padding-left: 0.8vw;
 }
 .text-input-admin {
   width: 89%;
@@ -907,10 +928,10 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
-  padding-left: 8px;
+  padding-left: 0.8vw;
 }
 .submit-button-admin {
   width: 90%;
@@ -923,8 +944,8 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
 }
 .submit-button-ngo {
@@ -939,8 +960,8 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
 }
 .form-for-inputs-name-email {
@@ -985,7 +1006,7 @@ input file-upload-button {
   margin-bottom: 40px;
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 1.3vw;
   color: #ffffff;
   padding-top: 50px;
 }
@@ -1053,13 +1074,13 @@ input file-upload-button {
 .manage-task-board > h2 {
   font-weight: lighter;
   padding-top: 20px;
-  font-size: 35px;
+  font-size: 1.3vw;
   text-align: center;
 }
 .manage-work-board > h2 {
   font-weight: lighter;
   padding-top: 20px;
-  font-size: 35px;
+  font-size: 1.3vw;
   text-align: center;
 }
 .manage-tasks-div {
@@ -1099,7 +1120,7 @@ input file-upload-button {
 .managetask-card-name {
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1.3vw;
   line-height: 18px;
   text-align: center;
   color: #000000;
@@ -1108,7 +1129,7 @@ input file-upload-button {
 .managetask-card-address {
   font-style: normal;
   font-weight: lighter;
-  font-size: 15px;
+  font-size: 1.3vw;
   line-height: 18px;
   text-align: center;
   color: #000000;
@@ -1116,7 +1137,7 @@ input file-upload-button {
 .managetask-card-phone {
   font-style: normal;
   font-weight: lighter;
-  font-size: 15px;
+  font-size: 1.3vw;
   line-height: 18px;
   text-align: center;
   color: #000000;
@@ -1157,7 +1178,7 @@ input file-upload-button {
 .managemsg-card-name {
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1.3vw;
   line-height: 18px;
   text-align: center;
   color: #000000;
@@ -1182,7 +1203,7 @@ input file-upload-button {
 .manage-msg-board > h2 {
   font-weight: lighter;
   padding-top: 20px;
-  font-size: 35px;
+  font-size: 1.3vw;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -1199,7 +1220,7 @@ input file-upload-button {
 .manage-work-input-form > h3 {
   font-weight: lighter;
   padding-top: 10px;
-  font-size: 20px;
+  font-size: 1.3vw;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -1214,10 +1235,10 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
-  padding-left: 8px;
+  padding-left: 0.8vw;
 }
 .address-input-work {
   margin-top: 15px;
@@ -1230,11 +1251,11 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
   padding: 0px;
-  padding-left: 8px;
+  padding-left: 0.8vw;
 }
 .submit-button-work {
   width: 82.9%;
@@ -1249,7 +1270,7 @@ input file-upload-button {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
-  line-height: 21px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
   color: #ffffff;
 }
