@@ -34,7 +34,7 @@
 .work {
   position: absolute;
   width: 100vw;
-  height: 55.5vw;
+  height: auto;
   left: 0px;
   top: 115.9vw;
   background-color: #f6f6f6;
