@@ -15,27 +15,27 @@ export default function Team() {
         <TeamCard
           name={'Avinash kumar'}
           img={
-            'https://res.cloudinary.com/dlb1ct3qc/image/upload/c_crop,h_219,q_51,w_245/v1613321197/iSharey/Avinash_zzmlbm.jpg'
+            'https://res.cloudinary.com/dlb1ct3qc/image/upload/c_limit,h_597,w_575/v1613321197/iSharey/Avinash_zzmlbm.jpg'
           }
           pos={'Incoming intern at Expedia group'}
           edu={'BE-Electrical Engineering'}
           clg={'Jadavpur University'}
         />
         <TeamCard
-          name={'Vicky kumar'}
+          name={'Prashant giri'}
           img={
-            'https://res.cloudinary.com/dlb1ct3qc/image/upload/c_crop,h_219,q_51,w_245/v1613321197/iSharey/Avinash_zzmlbm.jpg'
+            'https://res.cloudinary.com/dlb1ct3qc/image/upload/v1617431817/iSharey/prashant_wcqkap.jpg'
           }
-          pos={'Incoming intern at Expedia group'}
+          pos={'Manager at MK Electrical'}
           edu={'BE-Electrical Engineering'}
           clg={'Jadavpur University'}
         />
         <TeamCard
-          name={'Avinash kumar'}
+          name={'Priyanshu Ranjan'}
           img={
-            'https://res.cloudinary.com/dlb1ct3qc/image/upload/c_crop,h_219,q_51,w_245/v1613321197/iSharey/Avinash_zzmlbm.jpg'
+            'https://res.cloudinary.com/dlb1ct3qc/image/upload/v1617431816/iSharey/priyanshu_m6njt5.jpg'
           }
-          pos={'Incoming intern at Expedia group'}
+          pos={'Incoming intern at Amazon'}
           edu={'BE-Electrical Engineering'}
           clg={'Jadavpur University'}
         />

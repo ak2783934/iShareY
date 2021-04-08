@@ -97,7 +97,7 @@ export default function Foot() {
           </p>
           <p>
             <a
-              href='https://www.facebook.com/'
+              href='https://www.facebook.com/ishareyfoundation'
               target='_blank'
               rel='noreferrer'
               className={'icons'}
@@ -108,7 +108,7 @@ export default function Foot() {
               />
             </a>
             <a
-              href='https://twitter.com'
+              href='https://twitter.com/ishareyfoundat1'
               target='_blank'
               rel='noreferrer'
               className={'icons'}
@@ -119,7 +119,7 @@ export default function Foot() {
               />
             </a>
             <a
-              href='https://www.instagram.com/'
+              href='https://www.instagram.com/photoislob/'
               target='_blank'
               rel='noreferrer'
               className={'icons'}
