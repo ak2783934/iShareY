@@ -46,7 +46,7 @@
   height: 5vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas: 'blank navBar navBar navBar navBar navbar navbar homeBar teamBar loginBar signupBar';
+  grid-template-areas: "blank navBar navBar navBar navBar navbar navbar homeBar teamBar loginBar signupBar";
 }
 
 .navBar {
@@ -72,7 +72,7 @@
 }
 
 .navbar > a {
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1.3vw;
@@ -97,7 +97,7 @@
 
 .footerBar > .contact-us {
   margin-left: 8.333333%;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 2.5vw;
@@ -112,7 +112,7 @@
   height: auto;
   margin-bottom: 3vw;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas: 'blank input-form input-form input-form input-form input-form address address address address address';
+  grid-template-areas: "blank input-form input-form input-form input-form input-form address address address address address";
 }
 
 .input-form {
@@ -137,7 +137,7 @@
   background: #c4c4c4;
   border-radius: 8px;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -154,7 +154,7 @@
   background: #c4c4c4;
   border-radius: 8px;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -171,7 +171,7 @@
   background: #c4c4c4;
   border-radius: 8px;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -189,7 +189,7 @@
   background: #5cada6;
   border-radius: 0.5vw;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1vw;
@@ -198,7 +198,7 @@
 }
 
 ::placeholder {
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1.4vw;
@@ -218,7 +218,7 @@ input:focus {
 }
 
 .actual-address {
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -228,7 +228,7 @@ input:focus {
 }
 
 .address > .copyright {
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -259,7 +259,7 @@ input:focus {
 
 .text-donate {
   margin-left: 10%;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 1.3vw;
@@ -285,7 +285,7 @@ input:focus {
   /* margin-left: 8.333%; */
   padding-top: 3%;
   padding-bottom: 3%;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 2.5vw;
@@ -318,7 +318,7 @@ input:focus {
   background: #5cada6;
   border-radius: 8px;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -333,7 +333,7 @@ input:focus {
   background: #c4c4c4;
   border-radius: 8px;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -349,7 +349,7 @@ input:focus {
   background: #c4c4c4;
   border-radius: 8px;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -374,7 +374,7 @@ input file-upload-button {
   background: #c4c4c4;
   border-radius: 8px;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -390,7 +390,7 @@ input file-upload-button {
   background: #c4c4c4;
   border-radius: 8px;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -408,7 +408,7 @@ input file-upload-button {
 }
 .our-work-title {
   margin-bottom: 1.7vw;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 2.5vw;
@@ -446,7 +446,7 @@ input file-upload-button {
 .work-card-msg {
   padding: 2vw 2vw;
   margin: 0px;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -470,7 +470,7 @@ input file-upload-button {
   margin-right: auto;
   margin-top: 9%;
   text-align: center;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 2vw;
@@ -485,7 +485,7 @@ input file-upload-button {
   background: #c4c4c4;
   border-radius: 8px;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -501,7 +501,7 @@ input file-upload-button {
   background: #c4c4c4;
   border-radius: 8px;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -517,7 +517,7 @@ input file-upload-button {
   background: #c4c4c4;
   border-radius: 8px;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -533,7 +533,7 @@ input file-upload-button {
   background: #c4c4c4;
   border-radius: 8px;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -549,7 +549,7 @@ input file-upload-button {
   background: #5cada6;
   border-radius: 8px;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -565,8 +565,17 @@ input file-upload-button {
   background: no-repeat;
   background-image: url(https://res.cloudinary.com/dlb1ct3qc/image/upload/v1612359080/iSharey/dfssdfgsdf_x6dxht.svg);
   background-size: 100vw auto;
-  height: 55.5vw;
+  height: 70vw;
 }
+
+.front-page-team-team {
+  width: 100%;
+  background: no-repeat;
+  background-image: url(https://res.cloudinary.com/dlb1ct3qc/image/upload/v1630926492/iSharey/final_oo5sjj.png);
+  background-size: 100vw auto;
+  height: 70vw;
+}
+
 .team-main-page {
   /* height: 500px; */
   display: grid;
@@ -583,7 +592,7 @@ input file-upload-button {
   margin-bottom: 1vw;
   margin: 1vw auto;
   width: 25vw;
-  height: 28vw;
+  height: 23vw;
   background: rgba(16, 68, 75, 0.7);
   border-radius: 1vw;
   display: flex;
@@ -597,7 +606,7 @@ input file-upload-button {
   margin: 1.4vw auto;
 }
 .card-name-team {
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 1.3vw;
@@ -607,7 +616,7 @@ input file-upload-button {
   justify-content: center;
 }
 .card-pos-team {
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -618,7 +627,7 @@ input file-upload-button {
   color: rgba(255, 255, 255, 0.7);
 }
 .card-edu-team {
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -629,7 +638,7 @@ input file-upload-button {
   color: rgba(255, 255, 255, 0.7);
 }
 .card-ckg-team {
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -658,7 +667,7 @@ input file-upload-button {
   margin-right: auto;
   padding-top: 10%;
   text-align: center;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 3vw;
@@ -680,7 +689,7 @@ input file-upload-button {
   background: #c4c4c4;
   border-radius: 8px;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -696,7 +705,7 @@ input file-upload-button {
   background: #c4c4c4;
   border-radius: 1vw;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -712,7 +721,7 @@ input file-upload-button {
   background: #5cada6;
   border-radius: 1vw;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -727,7 +736,7 @@ input file-upload-button {
 .our-team {
   margin-top: 3%;
   text-align: center;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 2.5vw;
@@ -743,7 +752,7 @@ input file-upload-button {
   background: #c4c4c4;
   border-radius: 0.7vw;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -759,7 +768,7 @@ input file-upload-button {
   background: #c4c4c4;
   border-radius: 0.7vw;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -775,7 +784,7 @@ input file-upload-button {
   background: #c4c4c4;
   border-radius: 0.7vw;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -792,7 +801,7 @@ input file-upload-button {
   background: #5cada6;
   border-radius: 0.7vw;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -818,7 +827,7 @@ input file-upload-button {
   background: #c4c4c4;
   border-radius: 0.7vw;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -836,7 +845,7 @@ input file-upload-button {
   background: #be2823;
   border-radius: 8px;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -894,7 +903,7 @@ input file-upload-button {
   background: #c4c4c4;
   border-radius: 8px;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -910,7 +919,7 @@ input file-upload-button {
   background: #c4c4c4;
   border-radius: 8px;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -926,7 +935,7 @@ input file-upload-button {
   background: #c4c4c4;
   border-radius: 1.3vw;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -942,7 +951,7 @@ input file-upload-button {
   background: #5cada6;
   border-radius: 8px;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -958,7 +967,7 @@ input file-upload-button {
   background: #5cada6;
   border-radius: 8px;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -1238,7 +1247,7 @@ input file-upload-button {
   background: #c4c4c4;
   border-radius: 0.6vw;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -1254,7 +1263,7 @@ input file-upload-button {
   background: #c4c4c4;
   border-radius: 8px;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
@@ -1273,7 +1282,7 @@ input file-upload-button {
   background: #5cada6;
   border-radius: 0.6vw;
   border: none;
-  font-family: 'Recursive', sans-serif;
+  font-family: "Recursive", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 1.3vw;
