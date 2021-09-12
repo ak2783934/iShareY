@@ -39,33 +39,6 @@ export default function Team() {
           edu={"BE-Electrical Engineering"}
           clg={"Jadavpur University"}
         />
-        <TeamCard
-          name={"Rahul Agarwal"}
-          img={
-            "https://media-exp1.licdn.com/dms/image/C5603AQHNSm4GmWZGqQ/profile-displayphoto-shrink_800_800/0/1629215863799?e=1636588800&v=beta&t=Iq7DOx48bkZifLK0NKqv_P_R33rvxkNbJ_-us1zFT6g"
-          }
-          pos={"Student at Jadavpur University"}
-          edu={"BE-Electrical Engineering"}
-          clg={"Jadavpur University"}
-        />
-        <TeamCard
-          name={"Durgesh Pratap Singh"}
-          img={
-            "https://media-exp1.licdn.com/dms/image/C4E35AQF7bzRofKcDiA/profile-framedphoto-shrink_800_800/0/1614995495160?e=1631012400&v=beta&t=dMODYu3EGmcwflI7a7_qmrjtCdw90-mEINiklGIr_MY"
-          }
-          pos={"Student at Jadavpur University"}
-          edu={"BE-Civil Engineering"}
-          clg={"Jadavpur University"}
-        />
-        <TeamCard
-          name={"Sonu Kumar"}
-          img={
-            "https://media-exp1.licdn.com/dms/image/C4E03AQE-jL7WZDTdkQ/profile-displayphoto-shrink_800_800/0/1620854060953?e=1636588800&v=beta&t=rE1yjDGT1o9QZ3DmJYjGESERe_y9rrpG4OodKVbMnr0"
-          }
-          pos={"Student at IIT Madras"}
-          edu={"B.tech Mechanical Engineering"}
-          clg={"IIT Madras"}
-        />
       </div>
       <Foot />
     </div>
