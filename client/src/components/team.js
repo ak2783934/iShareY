@@ -17,27 +17,29 @@ export default function Team() {
           img={
             "https://res.cloudinary.com/dlb1ct3qc/image/upload/c_limit,h_597,w_575/v1613321197/iSharey/Avinash_zzmlbm.jpg"
           }
-          pos={"Incoming SDE at Expedia group"}
+          pos={"SDE Grab"}
           edu={"BE-Electrical Engineering"}
           clg={"Jadavpur University"}
         />
+
         <TeamCard
-          name={"Prashant giri"}
+          name={"Sonu Kumar"}
           img={
-            "https://res.cloudinary.com/dlb1ct3qc/image/upload/v1617431817/iSharey/prashant_wcqkap.jpg"
+            "https://res.cloudinary.com/dlb1ct3qc/image/upload/v1659841749/iSharey/sonu_utaqxa.webp"
           }
-          pos={"Intern at MOL IT"}
-          edu={"BE-Electrical Engineering"}
-          clg={"Jadavpur University"}
+          pos={"Student"}
+          edu={"B-Tech-Mechanical Engineering"}
+          clg={"IIT Madras"}
         />
+
         <TeamCard
-          name={"Priyanshu Ranjan"}
+          name={"Rahul Kumar Pal"}
           img={
-            "https://res.cloudinary.com/dlb1ct3qc/image/upload/v1617431816/iSharey/priyanshu_m6njt5.jpg"
+            "https://res.cloudinary.com/dlb1ct3qc/image/upload/v1659841652/iSharey/rahul_j5nmkc.webp"
           }
-          pos={"Incoming SDE at Amazon"}
-          edu={"BE-Electrical Engineering"}
-          clg={"Jadavpur University"}
+          pos={"Student"}
+          edu={"Masters in computer application"}
+          clg={"Graphic Era, Dehradun"}
         />
       </div>
       <Foot />
