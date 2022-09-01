@@ -94,8 +94,6 @@ export default function Donate() {
         </div>
         <div className={"text-donate"}>
           <p>Most successfull NGO in cloths Donation</p>
-          <p>#1 in Jadavpur University</p>
-          <p>#3 in Kolkata</p>
         </div>
       </div>
       <div className={"second-div"}>

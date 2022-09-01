@@ -89,11 +89,11 @@ export default function Foot() {
 
         <div className={'address'}>
           <p className={'actual-address'}>
-            Department of Electrical Engineering
+            208, Bapuji nagar
           </p>
           <p className={'actual-address'}>Raja SC mullick Road,</p>
           <p className={'actual-address'}>
-            Jadavpur University, Kolkata 700032
+            Kolkata 700032
           </p>
           <p>
             <a

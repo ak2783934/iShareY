@@ -13,13 +13,13 @@ export default function Team() {
       <div className={"our-team"}>Our Team</div>
       <div className={"team-main-page"}>
         <TeamCard
-          name={"Avinash kumar"}
+          name={"Saurabh singh"}
           img={
-            "https://res.cloudinary.com/dlb1ct3qc/image/upload/c_limit,h_597,w_575/v1613321197/iSharey/Avinash_zzmlbm.jpg"
+            "https://res.cloudinary.com/dlb1ct3qc/image/upload/v1662130088/iSharey/saurabh_ygx35o.jpg"
           }
-          pos={"SDE Grab"}
-          edu={"BE-Electrical Engineering"}
-          clg={"Jadavpur University"}
+          pos={"Student"}
+          edu={"B-Tech in computer science"}
+          clg={"SATI Vidisha, MP"}
         />
 
         <TeamCard
